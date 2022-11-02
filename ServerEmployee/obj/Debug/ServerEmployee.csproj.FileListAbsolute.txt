@@ -1,0 +1,14 @@
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\bin\Debug\ServerEmployee.exe.config
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\bin\Debug\ServerEmployee.exe
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\bin\Debug\ServerEmployee.pdb
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\bin\Debug\MiddleEmploye.dll
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\bin\Debug\MiddleEmploye.pdb
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.csproj.AssemblyReference.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.Form1.resources
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.Properties.Resources.resources
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.csproj.GenerateResource.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.csproj.CoreCompileInputs.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.csproj.CopyComplete
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.exe
+C:\Users\Hamza\source\repos\ServeurEmploye\ServerEmployee\obj\Debug\ServerEmployee.pdb

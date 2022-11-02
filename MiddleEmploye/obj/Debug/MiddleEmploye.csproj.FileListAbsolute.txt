@@ -1,0 +1,6 @@
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\bin\Debug\MiddleEmploye.dll
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\bin\Debug\MiddleEmploye.pdb
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\obj\Debug\MiddleEmploye.csproj.AssemblyReference.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\obj\Debug\MiddleEmploye.csproj.CoreCompileInputs.cache
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\obj\Debug\MiddleEmploye.dll
+C:\Users\Hamza\source\repos\ServeurEmploye\MiddleEmploye\obj\Debug\MiddleEmploye.pdb
