@@ -33,6 +33,10 @@
             this.btnModifier = new System.Windows.Forms.Button();
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.colCIN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colNom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colPrenom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSalaire = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.txtCIN = new System.Windows.Forms.TextBox();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.txtPrenom = new System.Windows.Forms.TextBox();
@@ -41,10 +45,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.colCIN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colNom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colPrenom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colSalaire = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btnCreer
@@ -53,18 +53,19 @@
             this.btnCreer.Name = "btnCreer";
             this.btnCreer.Size = new System.Drawing.Size(129, 23);
             this.btnCreer.TabIndex = 0;
-            this.btnCreer.Text = "Créer";
+            this.btnCreer.Text = "Ajouter";
             this.btnCreer.UseVisualStyleBackColor = true;
             this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
             // btnAugSalaire
             // 
-            this.btnAugSalaire.Location = new System.Drawing.Point(279, 262);
+            this.btnAugSalaire.Location = new System.Drawing.Point(275, 262);
             this.btnAugSalaire.Name = "btnAugSalaire";
             this.btnAugSalaire.Size = new System.Drawing.Size(130, 23);
             this.btnAugSalaire.TabIndex = 1;
             this.btnAugSalaire.Text = "Augmenter Salaire";
             this.btnAugSalaire.UseVisualStyleBackColor = true;
+            this.btnAugSalaire.Click += new System.EventHandler(this.btnAugSalaire_Click);
             // 
             // btnModifier
             // 
@@ -99,6 +100,24 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.listView1.Click += new System.EventHandler(this.listView1_Click);
+            // 
+            // colCIN
+            // 
+            this.colCIN.Text = "CIN";
+            this.colCIN.Width = 86;
+            // 
+            // colNom
+            // 
+            this.colNom.Text = "Nom";
+            // 
+            // colPrenom
+            // 
+            this.colPrenom.Text = "Prénom";
+            // 
+            // colSalaire
+            // 
+            this.colSalaire.Text = "Salaire";
             // 
             // txtCIN
             // 
@@ -164,23 +183,6 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Salaire";
             this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // colCIN
-            // 
-            this.colCIN.Text = "CIN";
-            this.colCIN.Width = 86;
-            // 
-            // colNom
-            // 
-            this.colNom.Text = "Nom";
-            // 
-            // colPrenom
-            // 
-            this.colPrenom.Text = "Prénom";
-            // 
-            // colSalaire
-            // 
-            this.colSalaire.Text = "Salaire";
             // 
             // Form1
             // 
