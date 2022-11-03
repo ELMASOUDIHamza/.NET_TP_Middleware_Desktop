@@ -45,6 +45,9 @@ namespace ClientEmployee
         private void listView1_Click (object sender, EventArgs e)
         {
             selectedItem = listView1.SelectedIndices[0];
+            txtNom.Text = listView1.Items[selectedItem].SubItems[1].Text;
+            txtPrenom.Text = listView1.Items[selectedItem].SubItems[2].Text;
+            txtSalaire.Text = listView1.Items[selectedItem].SubItems[3].Text;
         }
 
         private void btnCreer_Click(object sender, EventArgs e)
@@ -52,6 +55,12 @@ namespace ClientEmployee
             rpc.remplir(txtCIN.Text, txtNom.Text, txtPrenom.Text, double.Parse(txtSalaire.Text));
             listView1.Items.Add(new ListViewItem
                 (new String[] { rpc.cin, rpc.nom, rpc.prenom, rpc.salaire.ToString() }));
+
+            txtCIN.Clear();
+            txtNom.Clear();
+            txtPrenom.Clear();
+            txtSalaire.Clear();
+
         }
 
         private void btnAugSalaire_Click(object sender, EventArgs e)
@@ -65,6 +74,28 @@ namespace ClientEmployee
 
             rpc.augmenterSalaire();
             listView1.Items[selectedItem].SubItems[3].Text = rpc.salaire.ToString();    
+        }
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+            listView1.Items[selectedItem].SubItems[1].Text = txtNom.Text;
+
+            listView1.Items[selectedItem].SubItems[2].Text = txtPrenom.Text ;
+            listView1.Items[selectedItem].SubItems[3].Text = txtSalaire.Text ;
+
+            txtCIN.Clear();
+            txtNom.Clear();
+            txtPrenom.Clear();
+            txtSalaire.Clear();
+        }
+
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+            listView1.Items[selectedItem].Remove();
+            txtCIN.Clear();
+            txtNom.Clear();
+            txtPrenom.Clear();
+            txtSalaire.Clear();
         }
     }
 }
